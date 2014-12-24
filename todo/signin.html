@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Web Application | todo</title>
+<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/app.v1.css">
+<link rel="stylesheet" href="css/font.css" cache="false">
+<link rel="stylesheet" href="css/app.v1.css">
+<link rel="stylesheet" href="css/1-first-layout.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<style>
+nav {
+	
+	margin: 0 auto;
+	width: 800px;
+	
+}
+.puerto-menu{
+height: 82px;
+}
+nav ul{
+}
+#logo{
+	width:150px;
+	padding-left:23px;
+	height:83px;
+	float: left;
+padding-top: 6px;
+
+}
+.pre-header {
+color: #616b76;
+border-bottom: 1px solid #eee;
+line-height: 1.2;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+background: #fff;
+}
+.pre-header .fa {
+margin-right: 4px;
+}
+.additional-shop-info li:first-child {
+padding-left: 0;
+}
+.pre-header li {
+padding-left: 11px;
+padding-right: 15px;
+}
+.puerto-menu li a{
+	border:0px;
+}
+.pre-header li:last-child {
+border: none;
+}
+
+@media (max-width: 480px) {
+	.pre-header .list-inline li {
+		display: block;
+		border: none;
+		margin-bottom: 10px;
+		padding: 0;
+	}
+	.pre-header .col-md-6 {
+		float: left;
+	}
+	.pre-header .additional-nav {
+		float: right;
+		text-align: right;
+	}
+
+	.nav-catalogue .pi-price {
+		margin-bottom: 10px;
+	}
+	.nav-catalogue .pi-price,
+	.nav-catalogue .product-item .add2cart {
+		float: none;
+	}
+	
+	
+}
+.btn-linkedin{
+		background-color:#007BB6 !important;
+		color: #fff !important;
+        border-color: #007BB6;
+	}
+	
+	.btn-google-plus{
+	background-color:#DD4B39 !important;
+		color: #fff !important;
+        border-color: #DD4B39;	
+	}
+
+</style>
+
+<!--[if lt IE 9]> <script src="js/ie/respond.min.js" cache="false"></script> <script src="js/ie/html5.js" cache="false"></script> <script src="js/ie/fix.js" cache="false"></script> <![endif]-->
+</head>
+<body>
+<div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN TOP BAR LEFT PART -->
+                <div class="col-md-6 col-sm-6 additional-shop-info">
+                    <ul class="list-unstyled list-inline">
+                        <li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
+                        <li><i class="fa fa-envelope-o"></i><span>info@todo.com</span></li>
+                    </ul>
+                </div>
+                <!-- END TOP BAR LEFT PART -->
+                <!-- BEGIN TOP BAR MENU -->
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Registration</a></li>
+                    </ul>
+                </div>
+                <!-- END TOP BAR MENU -->
+            </div>
+        </div>        
+    </div>
+    <div class="pre-header" >
+<div class="container">
+ 
+  <nav>
+  <div id="logo" >
+ <img src="images\logo-big.png" >
+ </div>
+
+    <ul class="puerto-menu">
+      <li> <a href=""> <i class="fa fa-home"></i> <strong>Home</strong>  </a> </li>
+      <li  class="" > <a href=""> <i class="fa fa-table"></i> <strong>Lessons</strong>  </a>
+        <ul>
+          <li> <a href="#"><i class="fa fa-group"></i>Our Team</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
+              <li> <a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
+                <ul>
+                  <li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
+                  <li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-trophy"></i>Rewards</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
+              <li> <a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
+                <ul>
+                  <li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
+                  <li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-certificate"></i>Certificates</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
+              <li> <a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
+                <ul>
+                  <li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
+                  <li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li> <a href="" class="active"> <i class="fa fa-edit"></i> <strong>About us</strong>  </a> </li>
+      <li> <a href=""> <i class="fa fa-envelope-o"></i> <strong>Contacts</strong> </a> </li>
+    </ul>
+  </nav>
+</div>
+</div>
+<section id="content" class="m-t-lg wrapper-md animated fadeInUp"> <!--<a class="nav-brand" href="#"><img src="images\logo-big.png" ></a>-->
+  <div class="row m-n">
+    <div class="col-md-4 col-md-offset-4 m-t-lg">
+      <section class="panel">
+        <header class="panel-heading text-center"> Sign up / Sign in </header>
+        <form action="" class="panel-body">
+          <div class="form-group">
+            <label class="control-label">Email</label>
+            <input type="email" placeholder="test@example.com" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="control-label">Password</label>
+            <input type="password" id="inputPassword" placeholder="Password" class="form-control">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+              Keep me logged in </label>
+          </div>
+          <a href="#" class="pull-right m-t-xs"><small>Forgot password?</small></a>
+          <button type="submit" class="btn btn-info">Sign in</button>
+          <div class="line line-dashed"></div>
+          <a href="#" class="btn btn-facebook btn-block m-b-sm"><i class="icon-facebook pull-left"></i>Sign in with Facebook</a> 
+          <a href="#" class="btn btn-twitter btn-block m-b-sm"><i class="icon-twitter pull-left"></i>Sign in with Twitter</a>
+        <!--  <a href="#" class="btn btn-linkedin btn-block  m-b-sm"><i class="icon-linkedin pull-left"></i>Sign in with Linkedin</a>-->
+         <a href="#" class="btn btn-google-plus btn-block"><i class="icon-google-plus-sign pull-left"></i>Sign in with Google</a>
+         	
+          <div class="line line-dashed"></div>
+          <p class="text-muted text-center"><small>Do not have an account?</small></p>
+          <a href="signup.html" class="btn btn-white btn-block">Create an account</a>
+        </form>
+      </section>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer id="footer">
+  <div class="text-center padder clearfix">
+    <p> <small>Mobile first web app framework base on Bootstrap<br>
+      &copy; 2013</small> </p>
+  </div>
+</footer>
+<!-- / footer --><script src="css/app.v1.js"></script> <!-- Bootstrap --> <!-- app -->
+</body>
+</html>
